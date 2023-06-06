@@ -19,6 +19,10 @@ body{
     
 }
 
+html{
+   overflow: hidden;
+}
+
 .logo{
     font-weight: 700;
     width: 200px;
