@@ -8,7 +8,7 @@
 
 body{
    
-    height: 100vh;
+    height: 95vh;
     overflow-x: hidden;
     background-position: center;
     background-repeat: no-repeat;
@@ -19,10 +19,6 @@ body{
     
 }
 
-html{
-   overflow: hidden;
-}
-
 .logo{
     font-weight: 700;
     width: 200px;
@@ -30,6 +26,12 @@ html{
     align-items: center;
 
     
+}
+
+
+
+.animation lottie-player{
+    width: 100%;
 }
 
 .logo img{
@@ -129,6 +131,8 @@ html{
     margin-bottom: 120px;
 }
 
+
+
 @media only screen and (max-width: 975px){
    .card{
     width: 100px;
@@ -156,10 +160,11 @@ html{
     .navbar{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+
     }
-    
-     html{
+
+    html{
         overflow: hidden;
     }
 
@@ -206,4 +211,5 @@ html{
         color: black;
     }
 }
+
 
