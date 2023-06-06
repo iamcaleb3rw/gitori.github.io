@@ -154,5 +154,52 @@ body{
     align-items: center;
     justify-content: space-between;
     }
+    
+     html{
+        overflow: hidden;
+    }
+
+    body{
+        overflow-x: hidden;
+        padding: 0;
+    }
+
+    .logo{
+
+      margin-right: 20px;
+        
+    }
+    
+    .logo img{
+        width: 100%;
+    }
+
+    .welcome{
+        font-family: 'Jumper', sans-serif;
+        font-size: 18px;
+    }
+
+    lottie-player{
+        width: 50px;
+        height: 50px;
+    }
+
+    .card .button{
+        width: 100px;
+    }
+    
+    .card .button a{
+        padding: 6px;
+        font-size: 12px;
+        width: 100%;
+        border-radius: 5px;
+        border: none;
+        background: #cee3e4;
+        font-weight: 400;
+        transition: 0.5s;
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+    }
 }
 
