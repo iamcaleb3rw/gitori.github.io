@@ -1,215 +1,103 @@
-@import url('https://fonts.cdnfonts.com/css/jumper');
+@import url('https://fonts.cdnfonts.com/css/mastrih');
+
 *{
-    font-family: 'Clash Display', sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Satoshi', sans-serif;
 }
 
-body{
-   
-    height: 95vh;
-    overflow-x: hidden;
+
+
+.banner{
+    background: linear-gradient(to top left, #0D1117, #141e2e, #0d121a);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(./dominik-schroder-FIKD9t5_5zQ-unsplash.jpg);
-    backdrop-filter: blur(3px);
-    
-    
+    position: relative;
+    background-color: #0D1117;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
 }
 
 .logo{
-    font-weight: 700;
-    width: 200px;
-    display: flex;
-    align-items: center;
-
-    
-}
-
-
-
-.animation lottie-player{
-    width: 100%;
-}
-
-.logo img{
-    width: 100%;
+    color: white;
 }
 
 .name{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+}
+
+.underline{
+    width: 8rem;
+    transform: translateY(-65%);
+}
+
+.company{
+    background: linear-gradient(to right, rgb(188, 12, 241), rgb(212, 4, 4));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.underline img{
+    width: 100%;
+}
+
+.heading{
+    font-size: 1rem;
+    color: rgb(218, 209, 209);
+}
+
+.logo{
+    margin-bottom: 3rem;
+    color: white;
+    font-family: 'Mastrih', sans-serif;
+    font-size: 2rem;
     font-weight: 700;
-    font-size: 30px;
 }
 
-
-
-
-
-
-.navbar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.cards{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 30px;
-}
-
-.card{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: #B6B6B6;
-    width: 300px;
-    height: 350px;
-    padding: 8px;
-    border-radius: 8px;
-    transition: 1s;
-}
-
-.card:hover{
-    transform: scale(1.1);
-}
-
-.card .image{
-    width: 250px;
-    height: 300px;
-    padding: 6px;
-}
-
-.card img{
+.custom-shape-divider-bottom-1687365031 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
     width: 100%;
-    height: 100%;
-    border-radius: 8px;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
 }
 
-
-
-.card .button{
-    width: 200px;
+.custom-shape-divider-bottom-1687365031 svg {
+    position: relative;
+    display: block;
+    width: calc(197% + 1.3px);
+    height: 150px;
 }
 
-.card .button a{
-    padding: 12px;
-    font-size: 16px;
-    width: 100%;
-    border-radius: 5px;
-    border: none;
-    background: #cee3e4;
-    font-weight: 600;
-    transition: 0.5s;
-    cursor: pointer;
-    text-decoration: none;
-    color: black;
-}
-
-.card .button a:hover{
-    transform: scale(1.1);
-    background: #593436;
+.custom-shape-divider-bottom-1687365031 .shape-fill {
+    fill: #0b011c;
 }
 
 .welcome{
-    font-family: 'Jumper', sans-serif;
-    font-size: 30px;
+ font-family: 'Clash Display', sans-serif;
+ font-size: 2.5rem;
+ font-weight: 600;
+ background-image: url(./assets/blobanimation.svg);
+ background-color: #0b011c;
+ background-position: center;
+ background-repeat: no-repeat;
+ padding: 10vh;
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: center;
+ position: relative;
+ color: rgb(218, 209, 209);
+ text-align: center;
 }
-
-.all{
-    margin-bottom: 120px;
-}
-
-
-
-@media only screen and (max-width: 975px){
-   .card{
-    width: 100px;
-    height: 150px;
-    padding: 4px;
-   }
-
-   .card .image{
-    width: 100px;
-    height: 150px;
-    padding: 6px;
-   }
-
-   .card img{
-    width: 100%;
-    height: 100%;
-    border-radius: 8px;
-    }
-
-    .name{
-        font-weight: 700;
-        font-size: 20px;
-    }
-
-    .navbar{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-
-    }
-
-    html{
-        overflow: hidden;
-    }
-
-    body{
-        overflow-x: hidden;
-        padding: 0;
-    }
-
-    .logo{
-
-      margin-right: 20px;
-        
-    }
-    
-    .logo img{
-        width: 100%;
-    }
-
-    .welcome{
-        font-family: 'Jumper', sans-serif;
-        font-size: 18px;
-    }
-
-    lottie-player{
-        width: 50px;
-        height: 50px;
-    }
-
-    .card .button{
-        width: 100px;
-    }
-    
-    .card .button a{
-        padding: 6px;
-        font-size: 12px;
-        width: 100%;
-        border-radius: 5px;
-        border: none;
-        background: #cee3e4;
-        font-weight: 400;
-        transition: 0.5s;
-        cursor: pointer;
-        text-decoration: none;
-        color: black;
-    }
-}
-
-
