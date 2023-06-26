@@ -13,6 +13,7 @@
     background: linear-gradient(to top left, #0D1117, #141e2e, #0d121a);
     background-position: center;
     background-repeat: no-repeat;
+    background-image: url(./assets/blobanimation2.svg);
     position: relative;
     background-color: #0D1117;
     min-height: 600px;
@@ -81,7 +82,11 @@
 }
 
 .custom-shape-divider-bottom-1687365031 .shape-fill {
-    fill: #0b011c;
+    fill: rgb(218, 209, 209);
+}
+
+.facts{
+    position: relative;
 }
 
 .welcome{
@@ -97,7 +102,123 @@
  flex-wrap: wrap;
  align-items: center;
  justify-content: center;
- position: relative;
  color: rgb(218, 209, 209);
  text-align: center;
+ flex-direction: column;
 }
+
+.facts{
+    position: relative;
+    min-height: 650px;
+    background-color: rgb(218, 209, 209);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.custom-shape-divider-bottom-1687679290 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1687679290 svg {
+    position: relative;
+    display: block;
+    width: calc(208% + 1.3px);
+    height: 145px;
+}
+
+.custom-shape-divider-bottom-1687679290 .shape-fill {
+    fill: #0B011C;
+}
+
+.item .image{
+    width: 6.66vw;
+}
+
+.item .image ion-icon{
+    font-size: 3rem;
+}
+
+.item .image img{
+    width: 100%;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    z-index: 4;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(3px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
+}
+
+.item .title{
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.flex-box{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+    
+}
+
+.social-media{
+    display: flex;
+    gap: 20vw;
+}
+
+.ig{
+    color: #e6155a;
+    transition: 0.5s ease;
+}
+
+.in{
+    color: #156fe6;
+    transition: 0.5s ease;
+}
+
+.fb{
+    color: #4267B2;
+    transition: 0.5s ease;
+}
+
+.ig:hover, .fb:hover, .in:hover{
+    transform: translateY(-10%);
+}
+
+.credits{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #0B011C;
+}
+
+.credits p{
+    color: white;
+}
+
+
+
+
+
