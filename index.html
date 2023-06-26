@@ -9,16 +9,8 @@
     <title>Document</title>
 </head>
 <body>
+    <div id="preloader"></div>
     <section class="banner">
-        <div class="navigation">
-            <ul>
-                <li class="list">
-                    <a href="#">
-                        <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
-                    </a>
-                </li>
-            </ul>
-        </div>
         <div class="logo">
             Zuba
         </div>
@@ -30,18 +22,56 @@
         </div>
     </section>
 
+   <section class="facts">
+      <div class="flex-box">
+        <div class="item" data-tilt>
+            <div class="title">Date of Birth</div>
+            <div class="image"><ion-icon name="calendar-outline"></ion-icon></div>
+            <div class="definition">26/08/2004</div>
+        </div>
+        <div class="item" data-tilt>
+            <div class="title">Zodiac sign</div>
+            <div class="image"><img src="./assets/capricorn.png" alt=""></div>
+            <div class="definition">Capricorn</div>
+        </div>
+        <div class="item" data-tilt>
+            <div class="title">Hobby</div>
+            <div class="image"><ion-icon name="musical-notes-outline"></ion-icon></div>
+            <div class="definition">Listening to music</div>
+        </div>
+      </div>
+      <div class="custom-shape-divider-bottom-1687679290">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+        </svg>
+      </div>
+   </section>
+
+   
+
    <section class="welcome">
     
-       <div class="text">A human-being with a lot of valuable skills</div>
+       <div class="text">Want to keep in touch? <br> Message me!</div>
        <div class="animation">
         <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_8ywcoffy.json"  background="transparent"  speed="1"  style="max-width: 500px; min-height: 500px;"  loop  autoplay></lottie-player>
        </div> 
 
+       <div class="social-media">
+         <div class="icon"><a href="#"><ion-icon class="ig" name="logo-instagram"></ion-icon></a></div>
+         <div class="icon"><a href="#"><ion-icon class="in" name="logo-linkedin"></ion-icon></a></div>
+         <div class="icon"><a href="#"><ion-icon class="fb" name="logo-facebook"></ion-icon></a></div>
+       </div>
+
+   </section>
+
+   <section class="credits">
+    <p>Web designed by <a href="#">Ganza Caleb</a></p>
    </section>
 
 
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="./vanilla-tilt.js"></script>
 </body>
 </html>
