@@ -7,6 +7,10 @@
     font-family: 'Satoshi', sans-serif;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 
 
 .banner{
@@ -52,6 +56,10 @@
 }
 
 .heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-size: 1rem;
     color: rgb(218, 209, 209);
 }
@@ -217,6 +225,30 @@
 .credits p{
     color: white;
 }
+
+.mystory{
+    margin-bottom: 10vh;
+}
+
+.story{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: rgb(244, 24, 68);
+    border: 1px solid rgb(244, 24, 68);
+    padding: 5px;
+}
+
+#preloader{
+    height: 100vh;
+    width: 100%;
+    background: black url(./assets/output-onlinegiftools.gif) no-repeat center center;
+    position: fixed;
+    z-index: 100;
+}
+
+
+
+
 
 
 
