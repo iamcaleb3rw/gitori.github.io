@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link href="https://api.fontshare.com/v2/css?f[]=clash-display@200,400,700,500,600,300&f[]=chillax@1,600,500,300,700,400,200&f[]=satoshi@1,900,700,500,300,400&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <title>Document</title>
 </head>
@@ -14,7 +15,16 @@
         <div class="logo">
             Zuba
         </div>
-        <div class="heading"><h1>Welcome to the official website of <div class="name"><div class="izina">Gitori Ismael</div><div class="underline"><img src="./assets/url-3rNIplxTseIqdEjr.png" alt=""></div></div> CEO Assistant at <div class="company">passBridge</div></h1></div>
+        <div class="heading">
+            <h1>Welcome to the official website of 
+                <div class="name">
+                    <div class="izina">Gitori Ismael</div>
+                    <div class="underline"><img src="./assets/url-3rNIplxTseIqdEjr.png" alt=""></div>
+                </div> CEO Assistant at 
+                <div class="company">passBridge</div>
+            </h1>
+           
+        </div>
         <div class="custom-shape-divider-bottom-1687365031">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                 <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
@@ -24,7 +34,7 @@
 
    <section class="facts">
       <div class="flex-box">
-        <div class="item" data-tilt>
+        <div class="item" data-tilt="">
             <div class="title">Date of Birth</div>
             <div class="image"><ion-icon name="calendar-outline"></ion-icon></div>
             <div class="definition">26/08/2004</div>
@@ -56,6 +66,10 @@
         <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_8ywcoffy.json"  background="transparent"  speed="1"  style="max-width: 500px; min-height: 500px;"  loop  autoplay></lottie-player>
        </div> 
 
+       <div class="mystory">
+        <a class="story" href="draft.html">See my Story &rarr;</a>
+       </div>
+
        <div class="social-media">
          <div class="icon"><a href="#"><ion-icon class="ig" name="logo-instagram"></ion-icon></a></div>
          <div class="icon"><a href="#"><ion-icon class="in" name="logo-linkedin"></ion-icon></a></div>
@@ -63,15 +77,26 @@
        </div>
 
    </section>
+    
 
-   <section class="credits">
-    <p>Web designed by <a href="#">Ganza Caleb</a></p>
-   </section>
+   
 
 
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 <script src="./vanilla-tilt.js"></script>
+<script>
+    AOS.init();
+</script>
+
+<script>
+    var loader = document.getElementById("preloader");
+
+    window.addEventListener("load", function(){
+        loader.style.display = "none";
+    })
+</script>
 </body>
 </html>
