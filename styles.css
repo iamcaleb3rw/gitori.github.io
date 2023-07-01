@@ -94,7 +94,7 @@ body{
 }
 
 .custom-shape-divider-bottom-1687365031 .shape-fill {
-    fill: rgb(218, 209, 209);
+    fill: #130557;
 }
 
 .facts{
@@ -126,6 +126,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
   
 }
 
@@ -418,6 +419,14 @@ body{
     align-items: center;
     text-align: justify;
  }
+
+ .img{
+    width: 30%;
+ }
+
+ .img img{
+    width: 100%;
+ }
  
  .timeline-content h3 {
     margin-top: 5px;
@@ -458,5 +467,11 @@ body{
        direction: ltr;
     }
  }
+
+
+ 
+ 
+
+ 
 
 
